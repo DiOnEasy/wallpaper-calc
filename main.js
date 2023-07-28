@@ -26,3 +26,17 @@ for (i = 0; i < materialTypes.length; i++) {
     <option value="${materialTypes[i].price}">${materialTypes[i].name}</option>
     `
 };
+
+calcButton.onclick = function(){
+    let calcSquare = (Number(width.value) * Number(height.value))/10000;
+    let total = calcSquare * Number(materialType.value);
+    console.log(total)
+    square.innerHTML = 
+    `
+    ${calcSquare.toFixed(2)}
+    `;
+    totalPrice.innerHTML = 
+    `
+    ${total.toFixed(0)}
+    `
+}
