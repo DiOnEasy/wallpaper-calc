@@ -1,0 +1,47 @@
+.calc__wrapper *{
+    margin: 0;
+    padding: 0;
+}
+
+.calc__wrapper {
+    border: 1px black solid;
+    max-width: fit-content;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.calc__wrapper input, .calc__wrapper select{
+    height: 25px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.calc__wrapper select{
+    height: 25px;
+    margin-bottom: 5px;
+    width: 75%;
+}
+
+.enter__size{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.calc__detailing{
+    border-top: 1px solid black;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.calc__button{
+    padding: 1% 5%;
+    height: 30px;
+    font-size: 18px;
+    background-color: #42aaeb;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0;
+    color: white;
+    border-radius: 5px;
+}
